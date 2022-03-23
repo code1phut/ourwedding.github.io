@@ -54,8 +54,6 @@
 </head>
 
 <body id="home">
-    <iframe src="audio/beautiful-in-white.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-
     <!-- start page-wrapper -->
     <div class="page-wrapper">
 
@@ -69,13 +67,10 @@
 
         <!-- strat music-box -->
         <div class="music-box">
-            <button class="music-box-toggle-btn">
+            <button id="music"  onclick="document.getElementById('player').play()" class="music-box-toggle-btn">
                 <i class="fa fa-music"></i>
             </button>
-
-            <div class="music-holder">
-                <iframe src="https://soundcloud.com/i-n/beautiful-in-white-shayne-ward?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"></iframe>
-            </div>
+            <audio id="player" src="audio/beautiful-in-white.mp3" loop></audio>
         </div>
         <!-- end music box -->
 
