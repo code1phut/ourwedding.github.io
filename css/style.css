@@ -1806,9 +1806,17 @@ img.img.img-responsive {
 @media (max-width: 991px) {
   .hero .wedding-announcement .couple-name-merried-text h2 {
     font-size: 55px;
-    font-size: 2.3rem;
-    padding-bottom: 75%;
+    font-size: 2.2rem;
+    padding-bottom: 55%;
   }
+}
+
+.gb .bride {
+border-radius: 15px;
+}
+
+.gb .groom {
+  border-radius: 15px;
 }
 
 .hero .wedding-announcement .married-text h4 {
@@ -2036,10 +2044,10 @@ img.img.img-responsive {
 }
 
 .static-hero {
-  background: url("../images/slider/LCA07390.jpg") center center/cover no-repeat
+  background: url("../images/slider/LCA07390.jpeg") center center/cover no-repeat
     local;
   width: 100%;
-  height: 940px;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
